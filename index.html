@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="nav">
+        <a href="#" id="head">Library System</a>
+        <a href="#books" id="hov">Books</a>
+        <a href="#regis" id="hov">Register</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Logout</a>
+
+    </div>
+    <section class="books">
+        <table id="table">
+            <h2>Books</h2>
+            <thead>
+                <tr>
+            <th>Book Id</th>
+            <th>Tittle</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#"><u>Book Tittle 1</u></a>
+                        <table>
+                            <tr >
+                                <td >Publication date:2000</td>
+                            </tr>
+                            <tr>
+                                <td>Page count:250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890123</td>
+                            </tr>
+   
+                        </table>
+                    </td>
+                    <td>
+                        Author Name 1
+                    </td>
+                    <td>Genere 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="#"><u>Book Tittle 2</u></a>
+                        <table>
+                            <tr>
+                                <td>Publication date:2005</td>
+                            </tr>
+                            <tr>
+                                <td>Page count:300</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890456</td>
+                            </tr>
+   
+                        </table>
+                    </td>
+                    <td>
+                        Author Name 2
+                    </td>
+                    <td>Genere 2</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="#"><u>Book Tittle 3</u></a>
+                        <table>
+                            <tr>
+                                <td>Publication date:2010</td>
+                            </tr>
+                            <tr>
+                                <td>Page count:350</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-4567890789</td>
+                            </tr>
+   
+                        </table>
+                    </td>
+                    <td>
+                        Author Name 3
+                    </td>
+                    <td>Genere 3</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="regis" >
+    <form method="post">
+        <h2>Register</h2>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname"placeholder="First Name" required><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname"placeholder="Last Name" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"placeholder="Email" required><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age"name="age" min="5" max="100" placeholder="5-100" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password"name="password" placeholder="xxxxxx" required><br>
+        <label for="conpassword">Confirm Password</label><br>
+        <input type="password" id="conpassword" name="conpassword"placeholder="xxxxxx" required><br>
+         <input type="submit" id="register" value="Register">
+    </form>
+    </section>
+</body>
+</html>
